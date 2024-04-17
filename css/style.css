@@ -625,7 +625,7 @@ h1 {
 }
 
 .header-back.one {
-    background: url('../img/bg4.jpg') center center no-repeat;
+    background: url('../img/newfm.png') center center no-repeat;
     background-size: cover;
 }
 
@@ -1423,7 +1423,7 @@ fieldset[disabled] .btn-primary.active {
     }
 
     .header-back.one {
-        background: url('../img/fmian2.jpg') center center no-repeat;
+        background: url('../img/newfm2.jpg') center center no-repeat;
         background-size: cover;
     }
 

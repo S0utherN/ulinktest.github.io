@@ -46,6 +46,15 @@ jQuery(function ($) {
         });
     }
 
+    $('#navbar').on('click', function(event) {
+        var $navbar = $(this);
+
+        // 检查navbar是否展开（是否包含 'in' 类）
+        if ($navbar.hasClass('in')) {
+            // 触发collapse的'hide'方法折叠navbar
+            $navbar.collapse('hide');
+        }
+    });
     /* ===================================
        Side Menu
        ====================================== */
@@ -499,3 +508,4 @@ jQuery(function ($) {
         }
     });
 });
+
